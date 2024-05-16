@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="415.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="75.0" layoutX="25.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="365.0" />
+      <Label fx:id="displayText" layoutX="35.0" layoutY="40.0" prefHeight="75.0" prefWidth="340.0">
+         <font>
+            <Font name="Yu Gothic Regular" size="35.0" />
+         </font>
+      </Label>
+      <Button fx:id="b_1" layoutX="25.0" layoutY="135.0" mnemonicParsing="false" onAction="#b_1Clicked" prefHeight="65.0" prefWidth="65.0" text="1" />
+      <Button fx:id="b_2" layoutX="125.0" layoutY="135.0" mnemonicParsing="false" onAction="#b_2Clicked" prefHeight="65.0" prefWidth="65.0" text="2" />
+      <Button fx:id="b_3" layoutX="225.0" layoutY="135.0" mnemonicParsing="false" onAction="#b_3Clicked" prefHeight="65.0" prefWidth="65.0" text="3" />
+      <Button fx:id="b_add" layoutX="325.0" layoutY="135.0" mnemonicParsing="false" onAction="#addClicked" prefHeight="65.0" prefWidth="65.0" text="+" />
+      <Button fx:id="b_4" layoutX="25.0" layoutY="210.0" mnemonicParsing="false" onAction="#b_4Clicked" prefHeight="65.0" prefWidth="65.0" text="4" />
+      <Button fx:id="b_5" layoutX="125.0" layoutY="210.0" mnemonicParsing="false" onAction="#b_5Clicked" prefHeight="65.0" prefWidth="65.0" text="5" />
+      <Button fx:id="b_6" layoutX="225.0" layoutY="210.0" mnemonicParsing="false" onAction="#b_6Clicked" prefHeight="65.0" prefWidth="65.0" text="6" />
+      <Button fx:id="b_subtract" layoutX="325.0" layoutY="210.0" mnemonicParsing="false" onAction="#subtractClicked" prefHeight="65.0" prefWidth="65.0" text="-" />
+      <Button fx:id="b_7" layoutX="25.0" layoutY="285.0" mnemonicParsing="false" onAction="#b_7Clicked" prefHeight="65.0" prefWidth="65.0" text="7" />
+      <Button fx:id="b_8" layoutX="125.0" layoutY="285.0" mnemonicParsing="false" onAction="#b_8Clicked" prefHeight="65.0" prefWidth="65.0" text="8" />
+      <Button fx:id="b_9" layoutX="225.0" layoutY="285.0" mnemonicParsing="false" onAction="#b_9Clicked" prefHeight="65.0" prefWidth="65.0" text="9" />
+      <Button fx:id="b_multiply" layoutX="325.0" layoutY="285.0" mnemonicParsing="false" onAction="#multiplyClicked" prefHeight="65.0" prefWidth="65.0" text="*" />
+      <Button fx:id="b_space" layoutX="25.0" layoutY="360.0" mnemonicParsing="false" onAction="#spaceClicked" prefHeight="65.0" prefWidth="65.0" text="_" />
+      <Button fx:id="b_0" layoutX="125.0" layoutY="360.0" mnemonicParsing="false" onAction="#b_0Clicked" prefHeight="65.0" prefWidth="65.0" text="0" />
+      <Button fx:id="b_clear" layoutX="225.0" layoutY="360.0" mnemonicParsing="false" onAction="#clearClicked" prefHeight="65.0" prefWidth="65.0" text="C" />
+      <Button fx:id="b_divide" layoutX="325.0" layoutY="360.0" mnemonicParsing="false" onAction="#divideClicked" prefHeight="65.0" prefWidth="65.0" text="/" />
+      <Button fx:id="b_calculate" layoutX="25.0" layoutY="435.0" mnemonicParsing="false" onAction="#calculateClicked" prefHeight="65.0" prefWidth="365.0" text="Calculate" />
+   </children>
+</Pane>
